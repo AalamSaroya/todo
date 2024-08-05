@@ -1,0 +1,8 @@
+.page-wrap {
+  max-width: calc(100% - 30px);
+  margin: 30px auto;
+  background-color: var(--color-light);
+  padding: 30px 15px;
+  border-radius: 20px;
+  width: 600px;
+}

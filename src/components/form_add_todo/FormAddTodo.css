@@ -1,0 +1,37 @@
+.form-field-container input {
+  width: 100%;
+  padding: 5px 120px 5px 20px;
+  border-radius: 100px;
+  min-height: 50px;
+  background-color: #ddd;
+  border: 0;
+  font-weight: 500;
+}
+
+form#form-add-todo {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.main-button {
+  min-width: 100px;
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: 100px;
+  color: var(--color-light);
+  cursor: pointer;
+}
+
+form#form-add-todo .main-button {
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  min-height: 50px;
+}
+
+.form-field-container {
+  width: 100%;
+}
